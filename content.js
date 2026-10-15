@@ -17,7 +17,7 @@ const site = {
     paperText: "#222625",
     accent: "#b7c7d8",
     bodyFont: '"XanhMono-Regular", "Courier New", monospace',
-    displayFont: '"PinyonScript-Regular"'
+    displayFont: '"Pasadeli"'
   },
 
   navigation: [
@@ -102,7 +102,7 @@ const site = {
         },
         {
           kind: "image", src: "assets/KissingSwanTowels.png", alt: "Two swan-shaped towels",
-          x: 40.5, y: 30, width: 320, rotation: 7, zIndex: 4,
+          x: 40.5, y: 28, width: 320, rotation: 7, zIndex: 4,
           mobile: { x: 81, y: 13, width: 155, rotation: 6 }
         },
         {
