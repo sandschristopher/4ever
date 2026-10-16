@@ -330,7 +330,7 @@ const site = {
               "lat": 40.705524,
               "lng": -73.922673,
               "neighborhood": "Bushwick",
-              "description": "One of our favorite restaurants...",
+              "description": "One of our favorite restaurants...Michael took Chris here after he proposed :o",
               "href": "https://www.google.com/maps/search/?api=1&query=Eyval%20Brooklyn%20NY"
             },
             {
