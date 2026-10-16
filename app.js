@@ -128,6 +128,18 @@ function renderCanvasItem(item) {
       ? ` ${escapeAttr(item.paperStyle)}`
       : "";
 
+    // Optional texture override for THIS paper only. The default remains in CSS.
+    // A CSS background never changes the paper's dimensions or text layout.
+    const texturePath = typeof item.paperTexture === "string" ? item.paperTexture.trim() : "";
+    const textureValue = texturePath.toLowerCase() === "none"
+      ? "none"
+      : texturePath
+        ? `url("${encodeURI(texturePath).replace(/["'()\\]/g, char => `%${char.charCodeAt(0).toString(16).toUpperCase()}`)}")`
+        : "";
+    const textureAttribute = textureValue
+      ? ` style="${escapeAttr(`--paper-texture-image: ${textureValue}`)}"`
+      : "";
+
     const title = item.title
       ? `<h3 class="paper-title">${escapeHtml(item.title)}</h3>`
       : "";
@@ -155,7 +167,7 @@ function renderCanvasItem(item) {
       : "";
 
     html = `
-      <article class="paper${styleClass}">
+      <article class="paper${styleClass}"${textureAttribute}>
         ${title}
         ${body}
         ${links}

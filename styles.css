@@ -219,7 +219,7 @@ body {
   font-weight: 400;
   line-height: 0.95;
 
-  text-shadow: 0px 0.9px 0 #008BDA;
+  text-shadow: 3px 3px 1.5px #ebe8df;
 }
 
 .artboard-intro {
@@ -282,12 +282,18 @@ body {
 
   color: var(--paper-text);
 
-  background:
+  /* Keep the existing box, padding, and flow exactly as before.
+     Each paper may override --paper-texture-image from content.js. */
+  background-color: var(--paper);
+  background-image:
     linear-gradient(
       rgba(255, 255, 255, 0.17),
       rgba(255, 255, 255, 0.17)
     ),
-    var(--paper);
+    var(--paper-texture-image, url("assets/TexturedPaper.jpeg"));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -308,7 +314,12 @@ body {
       circle at 30% 22%,
       rgba(255, 255, 255, 0.8),
       transparent 33%
-    );
+    ),
+    linear-gradient(
+      rgba(255, 255, 255, 0.17),
+      rgba(255, 255, 255, 0.17)
+    ),
+    var(--paper-texture-image, url("assets/TexturedPaper.jpeg"));
 }
 
 .paper-title {
