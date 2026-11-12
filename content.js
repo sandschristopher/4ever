@@ -121,7 +121,7 @@ const site = {
         {
           kind: "image", src: "assets/KissingSwanTowels.png", alt: "Two swan-shaped towels",
           x: 40.5, y: 28, width: 320, rotation: 7, zIndex: 4,
-          mobile: { x: 81, y: 13, width: 155, rotation: 6 }
+          mobile: { x: 88, y: 12.5, width: 155, rotation: 6 }
         },
         {
           kind: "paper", paperTexture: "assets/StarryPaper4.jpeg", title: "Air Travel",

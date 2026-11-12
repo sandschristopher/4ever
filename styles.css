@@ -1061,3 +1061,26 @@ body {
     line-height: 1.2;
   }
 }
+
+
+/* CENTER RECS PAGE ON MOBILE */
+@media (max-width: 700px) {
+  #recommendations.page-cards {
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 12px
+      calc(var(--nav-height) + 16px);
+  }
+
+  #recommendations .cards-page-inner {
+    width: 100%;
+  }
+
+  #recommendations .recommendation-map-shell {
+    margin-bottom: 0;
+  }
+}
+
