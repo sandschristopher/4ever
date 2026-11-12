@@ -161,13 +161,13 @@ const site = {
         {
           kind: "paper", paperTexture: "assets/StarryPaper4.jpeg", title: "Air Travel",
           body: "For guests flying in, LaGuardia (LGA) is the closest airport to the venue. JFK and Newark are also great options and may offer more flight choices. For taxis from the airport, use the official taxi stand outside the terminal!",
-          x: 61, y: 44, width: 300, rotation: -5, zIndex: 1,
+          x: 61, y: 50, width: 300, rotation: -5, zIndex: 1,
           mobile: { x: 49, y: 57, width: 352, rotation: 1 }
         },
         {
           kind: "paper", paperTexture: "assets/StarryPaper3.jpeg", title: "Ground Travel",
           body: "The easiest way to get around NYC is by subway, bus, Uber/Lyft, or yellow taxi. Subway & bus fare can be paid directly at the turnstile using Apple Pay or a contactless credit card... RIP MetroCard &lt;/3",
-          x: 82, y: 56, width: 320, rotation: 4, zIndex: 3,
+          x: 82, y: 62, width: 320, rotation: 4, zIndex: 3,
           mobile: { x: 49, y: 83, width: 352, rotation: -1 }
         },
         {
