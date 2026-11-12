@@ -66,13 +66,13 @@ const site = {
           kind: "paper", paperTexture: "assets/StarryPaper1.jpeg", title: "Ceremony, Dinner, & Dancing",
           body: "<b>Saturday, May 15</b>\n5:30–9:00 PM\n\n<b>Neptune Room</b>\n13 Greenpoint Ave.\nBrooklyn, NY 11222\n\nFormal attire",
           x: 35, y: 50, width: 420, rotation: 0, zIndex: 3,
-          mobile: { x: 51, y: 30, width: 365, rotation: 1 }
+          mobile: { x: 51, y: 32.5, width: 365, rotation: 1 }
         },
         {
           kind: "paper", paperTexture: "assets/StarryPaper2.jpeg", title: "Afters...",
           body: "<b>Saturday, May 15</b>\n10:00 PM–late\n\n<b>Jupiter Disco</b>\n1237 Flushing Ave.\nBrooklyn, NY 11237\n\nMusic by\n<b>Love Injection</b>\nAges 21+",
           x: 65, y: 50, width: 420, rotation: 0, zIndex: 2,
-          mobile: { x: 50, y: 70, width: 330, rotation: -1 }
+          mobile: { x: 50, y: 72.5, width: 330, rotation: -1 }
         }
       ]
     },
@@ -83,20 +83,55 @@ const site = {
       heading: "RSVP",
       items: [
         {
-          kind: "image", src: "assets/EngagementParty.png", alt: "Christopher and Michael at their engagement party",
-          x: 37, y: 50, width: 380, rotation: -3, zIndex: 2,
-          mobile: { x: 40, y: 40, width: 300, rotation: -2, zIndex: 1 }
+          kind: "image",
+          src: "assets/EngagementParty.png",
+          alt: "Christopher and Michael at their engagement party",
+          x: 37,
+          y: 50,
+          width: 380,
+          rotation: -3,
+          zIndex: 2,
+          mobile: {
+            x: 40,
+            y: 39,
+            width: 300,
+            rotation: -2,
+            zIndex: 1
+          }
         },
         {
-          kind: "image", src: "assets/Letter.png", alt: "Decorative open envelope",
-          x: 63, y: 50, width: 300, rotation: 5, zIndex: 1,
-          mobile: { x: 65, y: 68, width: 295, rotation: 3, zIndex: 2}
+          kind: "image",
+          src: "assets/Letter.png",
+          alt: "Decorative open envelope",
+          x: 63,
+          y: 50,
+          width: 300,
+          rotation: 5,
+          zIndex: 1,
+          mobile: {
+            x: 65,
+            y: 72,
+            width: 295,
+            rotation: 3,
+            zIndex: 2
+          }
         },
         {
-          kind: "button", label: "RSVP here",
+          kind: "button",
+          label: "RSVP here",
           href: "https://withjoy.com/christopher-and-michael-may-2027/rsvp?utm_medium=web&utm_source=joy&utm_campaign=share_website_dialog",
-          x: 63.5, y: 48, width: 360, rotation: 3.1, zIndex: 3,
-          mobile: { x: 65.25, y: 70, width: 280, rotation: 2, zIndex: 3 }
+          x: 63.5,
+          y: 48,
+          width: 360,
+          rotation: 3.1,
+          zIndex: 3,
+          mobile: {
+            x: 65.25,
+            y: 74,
+            width: 280,
+            rotation: 2,
+            zIndex: 3
+          }
         }
       ]
     },
