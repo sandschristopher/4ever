@@ -1084,3 +1084,9 @@ body {
   }
 }
 
+/* DESKTOP — REGISTRY LINKS ONLY */
+@media (min-width: 701px) {
+  #registry .link-list a {
+    font-size: 24px;
+  }
+}

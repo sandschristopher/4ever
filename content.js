@@ -64,13 +64,13 @@ const site = {
       items: [
         {
           kind: "paper", paperTexture: "assets/StarryPaper1.jpeg", title: "Ceremony, Dinner, & Dancing",
-          body: "<b>Saturday, May 15</b>\n5:30–9:00 PM\n\n<b>Neptune Room</b>\n13 Greenpoint Ave.\nBrooklyn, NY 11222\n\nFormal attire",
+          body: "<b>Saturday, May 15</b>\n5:15 – 11:00 PM\n\n<b>Neptune Room</b>\n13 Greenpoint Ave.\nBrooklyn, NY 11222\n\nFormal attire",
           x: 35, y: 50, width: 420, rotation: 0, zIndex: 3,
           mobile: { x: 51, y: 32.5, width: 365, rotation: 1 }
         },
         {
           kind: "paper", paperTexture: "assets/StarryPaper2.jpeg", title: "Afters...",
-          body: "<b>Saturday, May 15</b>\n10:00 PM–late\n\n<b>Jupiter Disco</b>\n1237 Flushing Ave.\nBrooklyn, NY 11237\n\nMusic by\n<b>Love Injection</b>\nAges 21+",
+          body: "<b>Saturday, May 15</b>\n11:00 PM–late\n\n<b>Jupiter Disco</b>\n1237 Flushing Ave.\nBrooklyn, NY 11237\n\nMusic by\n<b>Love Injection</b>\nAges 21+",
           x: 65, y: 50, width: 420, rotation: 0, zIndex: 2,
           mobile: { x: 50, y: 72.5, width: 330, rotation: -1 }
         }
@@ -191,7 +191,7 @@ const site = {
         {
           kind: "paper", paperTexture: "assets/TexturedPaper.jpeg",
           body: "Celebrating with you is the best gift we could receive. If you'd like to help us begin this next chapter, we've created a registry below with a few things we'd truly appreciate.",
-          links: [{ label: "View our registry", href: "https://withjoy.com/christopher-and-michael-may-2027/registry?utm_medium=web&utm_source=joy&utm_campaign=share_website_dialog" }],
+          links: [{ label: "Coming soon!", href: "https://withjoy.com/christopher-and-michael-may-2027/registry?utm_medium=web&utm_source=joy&utm_campaign=share_website_dialog" }],
           x: 50, y: 50, width: 600, rotation: 0, zIndex: 1,
           mobile: { x: 49, y: 50, width: 360, rotation: -1 }
         },
