@@ -119,7 +119,7 @@ const site = {
         {
           kind: "button",
           label: "RSVP here",
-          href: "https://withjoy.com/christopher-and-michael-may-2027/rsvp?utm_medium=web&utm_source=joy&utm_campaign=share_website_dialog",
+          href: "https://withjoy.com/chrisandmike4ever",
           x: 63.5,
           y: 48,
           width: 360,
