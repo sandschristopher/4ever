@@ -191,7 +191,7 @@ const site = {
         {
           kind: "paper", paperTexture: "assets/TexturedPaper.jpeg",
           body: "Celebrating with you is the best gift we could receive. If you'd like to help us begin this next chapter, we've created a registry below with a few things we'd truly appreciate.",
-          links: [{ label: "Coming soon!", href: "https://withjoy.com/chrisandmike4ever/registry?utm_medium=web&utm_source=joy&utm_campaign=share_website_dialog" }],
+          links: [{ label: "Registry", href: "https://withjoy.com/chrisandmike4ever/registry?utm_medium=web&utm_source=joy&utm_campaign=share_website_dialog" }],
           x: 50, y: 50, width: 600, rotation: 0, zIndex: 1,
           mobile: { x: 49, y: 50, width: 360, rotation: -1 }
         },
